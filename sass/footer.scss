@@ -1,0 +1,118 @@
+footer
+{
+    background-color: #333;
+    color: #fff;
+    margin-top: 30px;
+    p 
+    {
+        padding-bottom: 10px;
+    }
+    .footer_desc
+    {
+        padding: 20px 0;
+        text-align: justify;
+    }
+    .list_contact
+    {
+        margin-top: 30px;
+       li 
+       {
+            padding-bottom: 5px;
+            div 
+            {
+                display: flex;
+                gap: 5px;
+                margin-bottom: 15px;
+                i 
+                {
+                    padding-top: 2px;
+                    padding-right: 5px;
+                }
+            }          
+       }   
+    }
+    .list_footer
+    {
+        li 
+        {
+            padding-bottom: 20px;
+            i 
+            {
+                font-size: 10px;
+                padding-right: 10px;
+            }
+            &:hover 
+            {
+                color: #0097d2;
+                transition: .3s ease-in-out;
+                transform: translateX(7px);
+            }
+        }
+    }
+    .footer_title
+    {
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: .5px;
+        text-transform: uppercase;
+        margin: 30px 0 40px 0;
+        position: relative;
+        &::after
+        {
+            content: "";
+            display: block;
+            height: 3px;
+            width: 60px;
+            background-color: #0097d2;
+            position: absolute;
+            top: 30px;
+            left: 0;
+        }
+    }
+    .form_footer
+    {
+        position: relative;
+
+        input 
+        {
+            height: 50px;
+            padding: 0 10px;
+            border: none;
+            width: 200px;
+            outline: none;
+        }
+        button 
+        {
+            position: absolute;
+            width: 50px;
+            text-align: center;
+            font-size: 20px;
+            color: #ffffff;
+            background: #0097d2;
+            display: inline-block;
+            top: 0;
+            line-height: 48px;
+            border: 1px solid #0097d2;
+        }
+      
+    }
+    .scrollup
+    {
+        background-color: #0097d2;
+        width:40px;
+        height:40px;
+        position:fixed;
+        bottom:30px;
+        right:40px;
+        z-index: 999999;
+        display: none;
+        i 
+        {
+            color: #fff;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+    }
+}
